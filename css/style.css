@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); */
+.hidden{
+    display: none;
+}
+/* 
+.bgImage {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .clock {
+    font-weight: 700;
+    font-size: 100px;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    margin: 18px 0px;
+  }
+  .todo-form{
+  padding: 5px 15px;
+  border: 3px solid #d4d4d4;
+  border-radius: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3a3a3a;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+.greeting {
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    margin: 18px 0px;
+    height: 130px ; display: table-cell; vertical-align: middle
+
+  } */
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Gothic+Coding:wght@700&display=swap');
+  body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Nanum Brush Script", cursive;
+  color: #200f0f;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto 0;
+  top: 100px;
+}
+
+
+.bgImage {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.clock .greeting  {
+  font-weight: 700;
+  font-size: 100px;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  margin: 0px 0px;
+}
+.quote .weather {
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.979);
+    margin: 0px 0px;
+  }
